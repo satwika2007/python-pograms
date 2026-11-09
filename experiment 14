@@ -1,0 +1,7 @@
+class Addtion:
+    def add(self,a=0, b=0):
+        print(a + b)
+obj = Addtion()
+obj.add()
+obj.add(10)
+obj.add(10,20)
