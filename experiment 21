@@ -1,0 +1,11 @@
+class Student:
+    def display(self):
+        print("welcome to python")
+# creating multiple objects
+s1 = Student()
+s2 = Student()
+s3 = Student()
+# calling method using objects
+s1 . display()
+s2 . display()
+s3 . display()
