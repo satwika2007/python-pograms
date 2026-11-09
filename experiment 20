@@ -1,0 +1,12 @@
+try:
+    a = int(input("input frist number:"))
+    b = int(input("input second number:"))
+    c = a / b
+    print("Result:", c)
+except ValueError:
+    print("please enter numbers only")
+except  ZeroDivisionError:
+      print("cannot divide by zero")
+except Exception:
+    print("something went worng")
+    
