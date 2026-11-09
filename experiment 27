@@ -1,0 +1,11 @@
+class Father:
+    def display(self):
+        print("This is Father class")
+class son(Father):
+    def show(self):
+        print("This is son class")
+s = son() 
+s.display()
+s.show()
+        
+      
