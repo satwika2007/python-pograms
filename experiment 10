@@ -1,0 +1,10 @@
+class parent:
+    def __init__(self):
+        self.name = "Ravi"
+    def display(self):
+        print("Name:", self.name)
+class child(parent):
+    pass
+c = child()
+c.display()
+        
