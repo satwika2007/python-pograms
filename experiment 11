@@ -1,0 +1,13 @@
+class parent:
+    def show(self):
+        print("parent class")
+class child(parent):
+    def display(self):
+        print("child class")
+class grandchild(child):
+    def display1(self):
+        print("grandchild class")
+obj = grandchild()
+obj.show()
+obj.display()
+obj.display()
