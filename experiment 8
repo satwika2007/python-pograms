@@ -1,0 +1,10 @@
+class student:
+    def display(self):
+        print("Hello student")
+s1 = student()  
+s2 = student()
+s3 = student()
+s1.display()
+s2.display()
+s3.display()
+        
