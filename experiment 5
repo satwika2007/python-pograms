@@ -1,0 +1,9 @@
+class parent:
+    def display(self):
+        print("parent")
+class child(parent):
+    def display(self):
+        print("child")
+c = child()  
+c.display()
+        
